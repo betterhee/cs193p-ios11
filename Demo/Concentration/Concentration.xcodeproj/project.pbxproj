@@ -13,6 +13,8 @@
 		5D2204E125F856A200D5F33C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2204DF25F856A200D5F33C /* Main.storyboard */; };
 		5D2204E325F856A600D5F33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2204E225F856A600D5F33C /* Assets.xcassets */; };
 		5D2204E625F856A600D5F33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2204E425F856A600D5F33C /* LaunchScreen.storyboard */; };
+		5D2204F225F933EE00D5F33C /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2204F125F933EE00D5F33C /* Concentration.swift */; };
+		5D2204F525F9345600D5F33C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2204F425F9345600D5F33C /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5D2204E225F856A600D5F33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D2204E525F856A600D5F33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D2204E725F856A600D5F33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D2204F125F933EE00D5F33C /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		5D2204F425F9345600D5F33C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				5D2204EE25F856BA00D5F33C /* Supporting Files */,
 				5D2204DD25F856A200D5F33C /* ViewController.swift */,
+				5D2204F125F933EE00D5F33C /* Concentration.swift */,
+				5D2204F425F9345600D5F33C /* Card.swift */,
 				5D2204DF25F856A200D5F33C /* Main.storyboard */,
 				5D2204E725F856A600D5F33C /* Info.plist */,
 			);
@@ -146,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D2204DE25F856A200D5F33C /* ViewController.swift in Sources */,
+				5D2204F225F933EE00D5F33C /* Concentration.swift in Sources */,
+				5D2204F525F9345600D5F33C /* Card.swift in Sources */,
 				5D2204DA25F856A200D5F33C /* AppDelegate.swift in Sources */,
 				5D2204DC25F856A200D5F33C /* SceneDelegate.swift in Sources */,
 			);
